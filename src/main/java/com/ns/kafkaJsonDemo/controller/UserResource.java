@@ -20,7 +20,8 @@ public class UserResource {
             kafkaTemplate;
 
     private static final String TOPIC
-            = "StudentExample";
+            = "StudentExample ";
+
 
     @GetMapping("/publish/{id}/"
             + "{firstName}/{lastName}")
